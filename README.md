@@ -69,7 +69,8 @@ A compreensão desses dados permite visualizar como cada variável socioeconômi
 
 ## Recursos
 
-1- http://www.atlasbrasil.org.br/perfil/municipio/150450#idhm-all
+1- http://www.atlasbrasil.org.br/perfil/municipio/150450#idhm-all (Nota: Este projeto utiliza os dados do Atlas Brasil 2010, última versão com indicadores municipais completos. Quando disponíveis, dados do Censo 2022 poderão ser incorporados para atualização da análise.
+)
 
 2- https://cidades.ibge.gov.br/brasil/pa/melgaco/panorama
 
