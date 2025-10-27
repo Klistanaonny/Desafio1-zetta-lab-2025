@@ -1,8 +1,8 @@
 # Desafio1-zetta-lab-2025
 Repositório do Desafio 1 - Zetta Lab 2025
 
--Análise Socioeconômica do Município de Melgaço (PA)
--Autora: Klistanaonny Amábille Diniz Lucchesi
+Análise Socioeconômica do Município de Melgaço (PA)
+Autora: Klistanaonny Amábille Diniz Lucchesi
 
 📘 Descrição Geral
 Este projeto faz parte do Desafio 1 da Zetta Lab 2025 e tem como objetivo avaliar e visualizar os fenômenos que mais impactam o desenvolvimento socioeconômico no Brasil, utilizando como estudo de caso o município de Melgaço (PA) — cidade com o menor Índice de Desenvolvimento Humano (IDH) do país segundo o Atlas Brasil (2010).
@@ -24,7 +24,7 @@ O processo de tratamento envolveu:
 A planilha final representa um conjunto consistente e comparável de dados socioeconômicos e foi incluída no repositório.
 
 💻 Estrutura e Principais Passos do Notebook
-O notebook (desafio_um_zetta.ipynb) foi desenvolvido em Python 3, utilizando as bibliotecas pandas, matplotlib e seaborn para visualização de dados.
+O notebook (notebook_zetta.ipynb) foi desenvolvido em Python 3, utilizando as bibliotecas pandas, matplotlib e seaborn para visualização de dados.
 Ele foi estruturado em seções temáticas, cada uma representando uma dimensão socioeconômica do município:
     1. Distribuição racial — gráfico de barras mostrando que 84,37% da população é preta, destacando a relação entre desigualdade racial, acesso à educação e renda.
     2. Razão de dependência e proporção de idosos — análise temporal entre 2000 e 2010, indicando envelhecimento reduzido e baixa expectativa de vida.
