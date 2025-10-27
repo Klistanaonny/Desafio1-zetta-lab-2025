@@ -21,16 +21,19 @@ Além disso, foram incluídas referências pontuais do IBGE e de fontes jornalí
 A etapa de aquisição e curadoria dos dados foi realizada manualmente por meio da plataforma do Atlas Brasil.
 Em seguida, os indicadores foram organizados e tratados em planilha eletrônica (base_de_dados.ods).
 O processo de tratamento envolveu:
+
     • seleção apenas das variáveis relevantes à análise (educação, saúde, infraestrutura, demografia e desigualdade racial);
     • remoção de colunas com dados incompletos ou inconsistentes entre cidades;
     • padronização dos nomes e formatos numéricos;
     • e organização em um formato limpo para posterior visualização no Python.
+    
 A planilha final representa um conjunto consistente e comparável de dados socioeconômicos e foi incluída no repositório.
 
 ## 💻 Estrutura e Principais Passos do Notebook
 
 O notebook (notebook_zetta.ipynb) foi desenvolvido em Python 3, utilizando as bibliotecas pandas, matplotlib e seaborn para visualização de dados.
 Ele foi estruturado em seções temáticas, cada uma representando uma dimensão socioeconômica do município:
+
     1. Distribuição racial — gráfico de barras mostrando que 84,37% da população é preta, destacando a relação entre desigualdade racial, acesso à educação e renda.
     2. Razão de dependência e proporção de idosos — análise temporal entre 2000 e 2010, indicando envelhecimento reduzido e baixa expectativa de vida.
     3. Pirâmide etária — representação gráfica da estrutura populacional, com base larga e topo estreito, evidenciando alta natalidade e gravidez precoce.
@@ -39,19 +42,38 @@ Ele foi estruturado em seções temáticas, cada uma representando uma dimensão
     6. Expectativa de anos de estudo — comparação entre Melgaço e o estado do Pará.
     7. Escolarização da população adulta — análise da baixa escolaridade e sua relação com desinformação e exclusão social.
     8. Infraestrutura e saneamento — comparação entre Melgaço (PA) e São Caetano do Sul (SP), mostrando o impacto direto da falta de água e esgoto tratados.
+    
 Cada seção contém explicações textuais que conectam os gráficos aos fenômenos sociais descritos.
 
 ## 📈 Principais Insights
 
 A análise permitiu identificar padrões de vulnerabilidade que se repetem em municípios de baixo IDH, destacando que:
+
     • O baixo acesso à educação é o principal fator que perpetua a pobreza e a desigualdade;
+    
     • A estrutura demográfica jovem de Melgaço reflete altas taxas de natalidade e gravidez precoce;
+    
     • Apesar de avanços em saúde, a mortalidade infantil ainda está acima da meta da ONU;
+    
     • A ausência de saneamento básico está diretamente ligada à piora dos indicadores de saúde e renda;
+    
     • A baixa escolarização adulta limita o pensamento crítico e a participação política;
+    
     • E os problemas estruturais de Melgaço representam, em escala menor, os mesmos desafios enfrentados pelo Brasil.
+    
 Esses insights reforçam que o desenvolvimento humano depende de educação, políticas públicas sustentáveis e infraestrutura básica.
 
 ## 🧩 Conclusão
 Analisar Melgaço é observar um microcosmo do Brasil: um país em que o progresso convive com a exclusão social, e onde a educação continua sendo o eixo central do desenvolvimento humano e econômico.
 A compreensão desses dados permite visualizar como cada variável socioeconômica se conecta em um ciclo contínuo que define as condições de vida da população  (e como políticas públicas eficazes podem ser o ponto de virada nesse processo).
+
+## Recursos
+
+1- http://www.atlasbrasil.org.br/perfil/municipio/150450#idhm-all
+
+2- https://cidades.ibge.gov.br/brasil/pa/melgaco/panorama
+
+3- https://www.youtube.com/watch?v=72xeg4nL-ls (Documentário)
+
+4- https://www.bbc.com/portuguese/articles/cq8x9d3d705o (notícia)
+
